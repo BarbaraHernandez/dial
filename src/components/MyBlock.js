@@ -1,9 +1,9 @@
 import React from 'react'
 
-function MyBlock() {
+function MyBlock({blockType}) {
     return (
         <div>
-            
+            <p>this is my {blockType} block</p>
         </div>
     )
 }
